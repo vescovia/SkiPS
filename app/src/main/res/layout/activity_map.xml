@@ -24,10 +24,5 @@
             android:layout_weight="1"
             android:text="Friend List"
             android:onClick="moveToFriends"/>
-        <Button
-            android:layout_width="0dip"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:text="Settings"/>
     </LinearLayout>
 </LinearLayout>

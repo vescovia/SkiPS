@@ -16,21 +16,38 @@
 
         <activity
             android:name=".MapActivity"
-            android:label="@string/title_activity_map" >
-
+            android:label="@string/title_activity_map"
+            android:theme="@style/Theme.NoTitle" >
         </activity>
         <activity
             android:name=".FriendActivity"
-            android:label="@string/title_activity_friend" >
+            android:label="@string/title_activity_friend"
+            android:theme="@style/Theme.NoTitle" >
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login" >
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.NoTitle" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateAccount"
+            android:label="@string/title_activity_create_account"
+            android:theme="@style/Theme.NoTitle" >
+        </activity>
+        <activity
+            android:name=".AddFriendActivity"
+            android:label="@string/title_activity_add_friend"
+            android:theme="@style/Theme.NoTitle" >
+        </activity>
+        <activity
+            android:name=".ViewUserActivity"
+            android:label="@string/title_activity_view_user"
+            android:theme="@style/Theme.NoTitle">
         </activity>
     </application>
 
