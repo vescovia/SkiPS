@@ -12,5 +12,6 @@
     <string name="title_activity_create_account">CreateAccount</string>
     <string name="title_activity_add_friend">AddFriendActivity</string>
     <string name="title_activity_view_user">ViewUserActivity</string>
+    <string name="title_activity_requests">RequestsActivity</string>
 
 </resources>

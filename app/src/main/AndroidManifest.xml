@@ -47,6 +47,11 @@
         <activity
             android:name=".ViewUserActivity"
             android:label="@string/title_activity_view_user"
+            android:theme="@style/Theme.NoTitle" >
+        </activity>
+        <activity
+            android:name=".RequestsActivity"
+            android:label="@string/title_activity_requests"
             android:theme="@style/Theme.NoTitle">
         </activity>
     </application>

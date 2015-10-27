@@ -26,5 +26,11 @@
             android:layout_weight="1"
             android:text="Add Friend"
             android:onClick="moveToAddFriend"/>
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Friend Requests"
+            android:onClick="moveToRequests"/>
     </LinearLayout>
 </LinearLayout>
